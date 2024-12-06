@@ -1,0 +1,52 @@
+{
+    "dev_mode": true,
+    "ocr": {
+        "engine": "paddleocr",
+        "languages": [
+            "en"
+        ],
+        "tesseract": {
+            "path": null,
+            "config": ""
+        },
+        "easyocr": {
+            "gpu": false,
+            "model_storage_directory": null,
+            "download_enabled": true
+        },
+        "paddleocr": {
+            "use_angle_cls": true,
+            "use_gpu": false,
+            "show_log": false
+        }
+    },
+    "text": {
+        "font_family": "Arial",
+        "font_size": 22,
+        "font_bold": true,
+        "font_color": "#FFFFFF",
+        "background_color": "#000000"
+    },
+    "layout": {
+        "padding": {
+            "left": 20,
+            "right": 20,
+            "top": 50,
+            "bottom": 50
+        },
+        "margin": {
+            "left": 20,
+            "right": 20
+        },
+        "result_window": {
+            "width": 1173,
+            "height": 224,
+            "x": 351,
+            "y": 90
+        }
+    },
+    "translation": {
+        "source": "auto",
+        "target": "id"
+    }
+}
